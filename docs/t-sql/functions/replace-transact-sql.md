@@ -47,7 +47,7 @@ REPLACE ( string_expression , string_pattern , string_replacement )
  Es la [expresión](../../t-sql/language-elements/expressions-transact-sql.md) de cadena que se va a buscar. *string_expression* puede ser de un tipo de datos binario o de caracteres.  
   
  *string\_pattern*  
- Es la subcadena a encontrar. *string_pattern* puede ser de un tipo de datos binario o de caracteres. *string_pattern* no puede ser una cadena vacía ('') y no debe superar el número máximo de bytes que cabe en una página.  
+ Es la subcadena que se va a encontrar. *string_pattern* puede ser de un tipo de datos binario o de caracteres. *string_pattern* no puede ser una cadena vacía ('') y no debe superar el número máximo de bytes que cabe en una página.
   
  *string\_replacement*  
  Es la cadena de reemplazo. *string_replacement* puede tener un tipo de datos de carácter o binario.  
